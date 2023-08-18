@@ -3,7 +3,7 @@ We'll use this repo to share tools for mapping Connect for Cancer Prevention Con
 
 ### dceg_connect_cid2txt.py 
 
-Converts the deidentified_recruitment "SITE_deidentified_recruitment_data.csv" file to an excell file with the Concept IDs swapped out for human-readable text using the Data Dictionary. 
+Converts the deidentified_recruitment "SITE_deidentified_recruitment_data.csv" file to an excell file with the Concept IDs swapped out for human-readable text using the Data Dictionary. Written by Martin Ferguson.
 
 #### Usage:
 
