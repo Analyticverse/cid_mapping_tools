@@ -20,7 +20,7 @@ pip install pandas numpy requests
 
 1. Save the provided Python script (`dceg_connect_cid2txt.py`) in your desired directory.
 
-2. Download or create a CSV file (`de-identified_recruitment_data.csv`) that you want to process.
+2. Download or create a CSV file (`deidentified_recruitment_data.csv`) that you want to process.
 
 3. Open a terminal or command prompt.
 
@@ -38,10 +38,10 @@ pip install pandas numpy requests
 
    Replace `deidentified_recruitment_data.csv` with the actual name of your CSV file.
 
-6. The script will process the CSV file, convert concept IDs to textual representations, and create an Excel spreadsheet (`de-identified_recruitment_data.xlsx`) with a multirow header column. A corresponding CSV file (`deidentified_recruitment_data.csv`) will also be generated.
+6. The script will process the CSV file, convert concept IDs to textual representations, and create an Excel spreadsheet (`deidentified_recruitment_data.xlsx`) with a multirow header column. A corresponding CSV file (`deidentified_recruitment_data.csv`) will also be generated.
 
 ### Notes
 
 Please note that an active internet connection is required to run the script since it fetches data from a remote URL using the `requests` library.
 
-Make sure to replace `/path/to/script/` with the actual path where you save the `dceg_connect_cid2txt.py` script and `de-identified_recruitment_data.csv` file.
+Make sure to replace `/path/to/script/` with the actual path where you save the `dceg_connect_cid2txt.py` script and `deidentified_recruitment_data.csv` file.
