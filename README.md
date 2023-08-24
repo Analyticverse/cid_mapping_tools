@@ -1,9 +1,9 @@
 # cid_mapping_tools
 We'll use this repo to share tools for mapping Connect for Cancer Prevention Concept IDs to human readable variable labels.
 
-## CSV to Text Converter written by Martin Ferguson
+## Concept ID Converter written by Martin Ferguson
 
-This Python script (`dceg_connect_cid2txt.py`) is designed to convert concept IDs (CIDs) in a given CSV file (`SITE_deidentified_recruitment_data.csv`) into their corresponding textual representations using a predefined data dictionary. The script processes the CSV file and creates an Excel spreadsheet with a multirow header column and a corresponding CSV file containing the converted data.
+This Python script (`dceg_connect_cid2txt.py`) is designed to convert Concept IDs (CIDs) in a given CSV file (`SITE_deidentified_recruitment_data.csv`) into their corresponding textual representations using a predefined data dictionary. The script processes the CSV file and creates an Excel spreadsheet with a multirow header column and a corresponding CSV file containing the converted data.
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@ pip install pandas numpy requests
 
    Replace `deidentified_recruitment_data.csv` with the actual name of your CSV file.
 
-6. The script will process the CSV file, convert concept IDs to textual representations, and create an Excel spreadsheet (`deidentified_recruitment_data.xlsx`) with a multirow header column. A corresponding CSV file (`deidentified_recruitment_data.csv`) will also be generated.
+6. The script will process the CSV file, convert concept IDs to textual representations, and create an Excel spreadsheet (`deidentified_recruitment_data.xlsx`) with a multirow header column. 
 
 ### Notes
 
