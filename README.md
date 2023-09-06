@@ -16,6 +16,12 @@ Install the required libraries using the following command:
 pip install pandas numpy requests openpyxl
 ```
 
+Note: If you are on a Windows machine, this might work better:
+
+```bash
+py -m pip install pandas numpy requests openpyxl
+```
+
 ### Usage
 
 1. Save the provided Python script (`dceg_connect_cid2txt.py`) in your desired directory.
