@@ -10,7 +10,7 @@ A Excel version of our data dictionary can be found here: https://github.com/Ana
 ### Prerequisites
 
 - Python 3.x
-- Required Python libraries: pandas, numpy, requests
+- Required Python libraries: pandas, numpy, requests, openpyxl
 
 Install the required libraries using the following command:
 
