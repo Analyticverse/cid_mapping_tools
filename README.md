@@ -5,6 +5,8 @@ We'll use this repo to share tools for mapping Connect for Cancer Prevention Con
 
 This Python script (`dceg_connect_cid2txt.py`) is designed to convert Concept IDs (CIDs) in a given CSV file (`SITE_deidentified_recruitment_data.csv`) into their corresponding textual representations using a predefined data dictionary. The script processes the CSV file and creates an Excel spreadsheet with a multirow header column and a corresponding CSV file containing the converted data.
 
+A Excel version of our data dictionary can be found here: https://github.com/Analyticsphere/ConnectMasterAndSurveyCombinedDataDictionary
+
 ### Prerequisites
 
 - Python 3.x
