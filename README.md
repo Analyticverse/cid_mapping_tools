@@ -13,7 +13,7 @@ This Python script (`dceg_connect_cid2txt.py`) is designed to convert Concept ID
 Install the required libraries using the following command:
 
 ```bash
-pip install pandas numpy requests
+pip install pandas numpy requests openpyxl
 ```
 
 ### Usage
