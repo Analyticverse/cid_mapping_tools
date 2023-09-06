@@ -7,6 +7,7 @@ import requests
 import re
 import sys
 import os
+import certifi  # Import the certifi package
 
 ## Files and uris
 # Get csv filename from command line arg. ToDo: sloppy, no error checking.
@@ -15,7 +16,7 @@ filename = os.path.splitext(csv_file)[0]
 
 # Get the data dictionary json file from github
 c4cp_dictionary_url = 'https://raw.githubusercontent.com/episphere/conceptGithubActions/master/aggregateCopy.json'
-c4cp_req = requests.get(c4cp_dictionary_url)
+c4cp_req = requests.get(c4cp_dictionary_url, verify=False)
 c4cp_req.close()
 c4cp_dict = c4cp_req.json()
 
